@@ -3,9 +3,10 @@ package bocBankSDK
 import (
 	"encoding/json"
 	"fmt"
-	"gitlab.koblitzdigital.com/lib/bocBankSDK/Modules"
 	"reflect"
 	"testing"
+
+	"github.com/jointownchain/boc_bank_sdk/Modules"
 )
 
 func TestParseXML(t *testing.T) {

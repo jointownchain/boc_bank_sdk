@@ -1,8 +1,8 @@
 package bocBankSDK
 
 import (
+	"github.com/jointownchain/boc_bank_sdk/Modules"
 	"github.com/pkg/errors"
-	"gitlab.koblitzdigital.com/lib/bocBankSDK/Modules"
 )
 
 // 包含全部 API 接口

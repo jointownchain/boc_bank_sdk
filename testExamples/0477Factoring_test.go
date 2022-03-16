@@ -3,11 +3,12 @@ package testExamples
 import (
 	"encoding/xml"
 	"fmt"
-	"gitlab.koblitzdigital.com/lib/bocBankSDK"
-	"gitlab.koblitzdigital.com/lib/bocBankSDK/Modules"
-	"gitlab.koblitzdigital.com/lib/bocBankSDK/mock"
 	"testing"
 	"time"
+
+	bocBankSDK "github.com/jointownchain/boc_bank_sdk"
+	"github.com/jointownchain/boc_bank_sdk/Modules"
+	"github.com/jointownchain/boc_bank_sdk/mock"
 )
 
 // 发起保理 <- 网银客户号是医保局的

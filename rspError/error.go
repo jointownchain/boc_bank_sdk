@@ -2,9 +2,10 @@ package rspError
 
 import (
 	"encoding/xml"
+
 	"github.com/beevik/etree"
+	"github.com/jointownchain/boc_bank_sdk/Modules"
 	"github.com/pkg/errors"
-	"gitlab.koblitzdigital.com/lib/bocBankSDK/Modules"
 )
 
 // 前置判断是否为错误xml返回

@@ -3,8 +3,9 @@ package bocBankSDK
 import (
 	"context"
 	"encoding/xml"
+
+	"github.com/jointownchain/boc_bank_sdk/Modules"
 	"github.com/pkg/errors"
-	"gitlab.koblitzdigital.com/lib/bocBankSDK/Modules"
 )
 
 // 根据 function name 决定调用哪个 api

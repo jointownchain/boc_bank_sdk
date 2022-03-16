@@ -3,11 +3,12 @@ package testExamples
 import (
 	"encoding/xml"
 	"fmt"
-	"gitlab.koblitzdigital.com/lib/bocBankSDK"
-	"gitlab.koblitzdigital.com/lib/bocBankSDK/Modules"
-	"gitlab.koblitzdigital.com/lib/bocBankSDK/mock"
 	"testing"
 	"time"
+
+	bocBankSDK "github.com/jointownchain/boc_bank_sdk"
+	"github.com/jointownchain/boc_bank_sdk/Modules"
+	"github.com/jointownchain/boc_bank_sdk/mock"
 )
 
 var timeStr = "16:00/16:30/17:00/17:30/18:00"

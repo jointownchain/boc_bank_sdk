@@ -2,10 +2,11 @@ package bocBankSDK
 
 import (
 	"errors"
-	ecode "github.com/Cicyer/MIC_COMMON/exception"
-	"gitlab.koblitzdigital.com/lib/bocBankSDK/Modules"
 	"os"
 	"strings"
+
+	"github.com/jointownchain/boc_bank_sdk/Modules"
+	ecode "github.com/jointownchain/mic_common/exception"
 )
 
 // 从环境变量获取 银行的 URL

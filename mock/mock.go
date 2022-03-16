@@ -2,8 +2,9 @@ package mock
 
 import (
 	"encoding/xml"
-	"gitlab.koblitzdigital.com/lib/bocBankSDK/Modules"
 	"os"
+
+	"github.com/jointownchain/boc_bank_sdk/Modules"
 )
 
 // only for tests

@@ -2,9 +2,10 @@ package bocBankSDK
 
 import (
 	"encoding/xml"
+
+	"github.com/jointownchain/boc_bank_sdk/Modules"
+	"github.com/jointownchain/boc_bank_sdk/rspError"
 	"github.com/pkg/errors"
-	"gitlab.koblitzdigital.com/lib/bocBankSDK/Modules"
-	"gitlab.koblitzdigital.com/lib/bocBankSDK/rspError"
 )
 
 // 解析 oneStepAPI 返回

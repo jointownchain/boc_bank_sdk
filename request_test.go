@@ -2,8 +2,9 @@ package bocBankSDK
 
 import (
 	"fmt"
-	"gitlab.koblitzdigital.com/lib/bocBankSDK/Modules"
 	"testing"
+
+	"github.com/jointownchain/boc_bank_sdk/Modules"
 )
 
 // 构造完整 xml 请求

@@ -4,11 +4,12 @@ import (
 	"bytes"
 	"encoding/xml"
 	"fmt"
-	"github.com/pkg/errors"
-	"gitlab.koblitzdigital.com/lib/bocBankSDK/Modules"
 	"io/ioutil"
 	"net/http"
 	"time"
+
+	"github.com/jointownchain/boc_bank_sdk/Modules"
+	"github.com/pkg/errors"
 )
 
 // 向银行发送请求

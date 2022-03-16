@@ -4,11 +4,12 @@ import (
 	"encoding/json"
 	"encoding/xml"
 	"fmt"
-	"gitlab.koblitzdigital.com/lib/bocBankSDK"
-	"gitlab.koblitzdigital.com/lib/bocBankSDK/Modules"
-	"gitlab.koblitzdigital.com/lib/bocBankSDK/mock"
 	"testing"
 	"time"
+
+	bocBankSDK "github.com/jointownchain/boc_bank_sdk"
+	"github.com/jointownchain/boc_bank_sdk/Modules"
+	"github.com/jointownchain/boc_bank_sdk/mock"
 )
 
 // 0358 对账服务-余额对账单查询(b2e0358)
