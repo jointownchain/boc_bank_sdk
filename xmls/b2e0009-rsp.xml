@@ -1,0 +1,14 @@
+<trn-b2e0009-rs>
+    <status>
+        <rspcod>123</rspcod>
+        <rspmsg>123123</rspmsg>
+    </status>
+    <b2e0009-rs>
+        <status>
+            <rspcod>123</rspcod>
+            <rspmsg>123123</rspmsg>
+        </status>
+        <insid>123123</insid>
+        <obssid>123123</obssid>
+    </b2e0009-rs>
+</trn-b2e0009-rs>

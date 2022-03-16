@@ -1,0 +1,34 @@
+<trn-b2e0080-rq>
+    <ceitinfo></ceitinfo>
+    <b2e0080-rq>
+        <acrcinvtrf>
+            <relatedref></relatedref>
+            <finctype></finctype>
+            <erpid></erpid>
+            <factorcode></factorcode>
+            <guarcoid></guarcoid>
+            <applyflg></applyflg>
+            <directpurchaseflg></directpurchaseflg>
+            <directpurchaseccy></directpurchaseccy>
+            <directpurchaseamt></directpurchaseamt>
+            <branchid></branchid>
+            <applid></applid>
+            <authpoint></authpoint>
+            <custremark></custremark>
+        </acrcinvtrf>
+        <circlenum></circlenum>
+        <invoice>
+            <buyerid></buyerid>
+            <buyererpid></buyererpid>
+            <sellerid></sellerid>
+            <sellererpid></sellererpid>
+            <contractno></contractno>
+            <invno></invno>
+            <invccy></invccy>
+            <invamt></invamt>
+            <invdate></invdate>
+            <invvaldate></invvaldate>
+            <invduedate></invduedate>
+        </invoice>
+    </b2e0080-rq>
+</trn-b2e0080-rq>

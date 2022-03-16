@@ -1,0 +1,25 @@
+<trn-b2e0005-rs>
+    <status>
+        <rspcod>123</rspcod>
+        <rspmsg>123123</rspmsg>
+    </status>
+    <b2e0005-rs>
+        <status>
+            <rspcod>123</rspcod>
+            <rspmsg>123123</rspmsg>
+        </status>
+        <account>
+            <ibknum></ibknum>
+            <actacn></actacn>
+            <curcde></curcde>
+            <actname></actname>
+        </account>
+        <balance>
+            <bokbal></bokbal>
+            <avabal></avabal>
+            <stpamt></stpamt>
+            <ovramt></ovramt>
+        </balance>
+        <baldat></baldat>
+    </b2e0005-rs>
+</trn-b2e0005-rs>

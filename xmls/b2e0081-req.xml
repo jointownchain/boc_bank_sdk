@@ -1,0 +1,27 @@
+<trn-b2e0081-rq>
+    <ceitinfo></ceitinfo>
+    <b2e0081-rq>
+        <acrcpayment>
+            <relatedref></relatedref>
+            <applyflg></applyflg>
+            <erpid></erpid>
+            <branchid></branchid>
+            <applid></applid>
+            <pmtamt></pmtamt>
+            <pmtacno></pmtacno>
+            <fribkn></fribkn>
+            <pmttype></pmttype>
+            <pmtflg></pmtflg>
+            <custremark></custremark>
+        </acrcpayment>
+        <circlenum></circlenum>
+        <payment>
+            <invref></invref>
+            <sellerid></sellerid>
+            <sellererpid></sellererpid>
+            <invno></invno>
+            <pmtamt></pmtamt>
+            <settacno></settacno>
+        </payment>
+    </b2e0081-rq>
+</trn-b2e0081-rq>

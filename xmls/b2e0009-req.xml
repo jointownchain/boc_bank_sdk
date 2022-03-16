@@ -1,0 +1,27 @@
+<trn-b2e0009-rq>
+<ceitinfo></ceitinfo>
+<transtype>a</transtype>
+    <b2e0009-rq>
+        <insid>a</insid>
+        <obssid>a</obssid>
+        <fractn>
+            <fribkn>a</fribkn>
+            <actacn>a</actacn>
+            <actnam>a</actnam>
+        </fractn>
+        <toactn>
+            <toibkn>a</toibkn>
+            <actacn>a</actacn>
+            <toname>a</toname>
+            <toaddr>a</toaddr>
+            <tobknm>a</tobknm>
+        </toactn>
+        <trnamt>a</trnamt>
+        <trncur>a</trncur>
+        <priolv>a</priolv>
+        <furinfo>a</furinfo>
+        <trfdate>a</trfdate>
+        <trftime>a</trftime>
+        <comacn>b</comacn>
+    </b2e0009-rq>
+</trn-b2e0009-rq>

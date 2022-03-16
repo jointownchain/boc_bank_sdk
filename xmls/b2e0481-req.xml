@@ -1,0 +1,24 @@
+<trn-b2e0481-rq>
+    <ceitinfo></ceitinfo>
+    <b2e0481-rq>
+        <acrcinvtrf>
+            <relatedref></relatedref>
+            <channelno></channelno>
+            <unitcode></unitcode>
+            <finctype></finctype>
+            <applid></applid>
+            <applorganid></applorganid>
+            <applerpid></applerpid>
+            <custremark></custremark>
+            <repayacno></repayacno>
+        </acrcinvtrf>
+        <circlenum></circlenum>
+        <invoice>
+            <invref></invref>
+            <invno></invno>
+            <sellerid></sellerid>
+            <selleroriganid></selleroriganid>
+            <sellererpid></sellererpid>
+        </invoice>
+    </b2e0481-rq>
+</trn-b2e0481-rq>

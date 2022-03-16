@@ -1,0 +1,9 @@
+.DS_Store
+.idea/
+vendor/
+target/
+config.cc.toml
+./main.go
+/micro-auth.exe
+./main.go
+./micro-auth.exe
