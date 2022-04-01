@@ -19,4 +19,5 @@ var TrnCodMap = map[string]string{
 	BOCB2E_OPTS_BALANCE_STATEMENT_QUERY:            "b2e0358",
 	BOCB2E_OPTS_BALANCE_STATEMENT_DOWNLOAD:         "b2e0359",
 	BOCB2E_OPTS_BALANCE_STATEMENT_FEEDBACK:         "b2e0360",
+	BOCB2E_OPTS_CNAPS_QUERY:                        "b2e0043",
 }

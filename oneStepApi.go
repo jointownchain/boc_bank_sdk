@@ -31,6 +31,23 @@ func CallBank(ctx context.Context, headStr, bodyStr, funcName string) (rspBody [
 		return nil, errors.Wrap(err, "unmarshal head error")
 	}
 	switch funcName {
+	//// 联行号下载接口 b2e0043
+	//const BOCB2E_OPTS_HOSPITAL_PAYMENT = "hospitalPayment"
+	case Modules.BOCB2E_OPTS_CNAPS_QUERY:
+		trn := &Modules.TrnB2e0043Rq{}
+		err = xml.Unmarshal([]byte(bodyStr), trn)
+		if err != nil {
+			return nil, errors.Wrap(err, "unmarshal TrnB2e0043Rq error")
+		}
+		rsp, err := CNAPSQuery(head, trn)
+		if err != nil {
+			return nil, errors.Wrap(err, "call CNAPSQuery error")
+		}
+		rspBody, err = xml.Marshal(rsp)
+		if err != nil {
+			return nil, errors.Wrap(err, "Marshal CNAPSQuery result error")
+		}
+		return rspBody, err
 	//// 医疗机构专户付款接口 b2e0009
 	//const BOCB2E_OPTS_HOSPITAL_PAYMENT = "hospitalPayment"
 	case Modules.BOCB2E_OPTS_HOSPITAL_PAYMENT:

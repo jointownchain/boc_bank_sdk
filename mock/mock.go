@@ -10,15 +10,15 @@ import (
 // only for tests
 
 func MockSetBankURL() {
-	// _ = os.Setenv(Modules.BOCB2E_BANK_URL_ENV, "http://192.168.14.1:8080/B2EC/E2BServlet")
-	_ = os.Setenv(Modules.BOCB2E_BANK_URL_ENV, "http://58.215.120.156:38080/B2EC/E2BServlet")
+	_ = os.Setenv(Modules.BOCB2E_BANK_URL_ENV, "http://1.192.105.29:8080/B2EC/E2BServlet")
+	// _ = os.Setenv(Modules.BOCB2E_BANK_URL_ENV, "http://58.215.120.156:38080/B2EC/E2BServlet")
 }
 
 func MockXMLHead(trncod string) *Modules.Head {
 	MockSetBankURL()
 	head := &Modules.Head{xml.Name{}, "", "E192168202063",
 		"04051003128",
-		"133832424",
+		"133832423",
 		"136170292",
 		trncod,
 		"0D6886D4498DB958C471131A189DF9CF"}
