@@ -298,7 +298,7 @@ type B2e0487Rs struct {
 	Paycirclenum    string       `xml:"paycirclenum"`
 	Pay             *Pay0487     `xml:"pay"`
 	Circlenum       string       `xml:"circlenum"`
-	Invoice         *Invoice0487 `xml:"invoice"`
+	Invoice         *[]Invoice0487 `xml:"invoice"`
 }
 
 type Pay0487 struct {
