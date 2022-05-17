@@ -364,6 +364,7 @@ type B2e0035Rs struct {
 	Insid        string      `xml:"insid"`
 	Txndate      string      `xml:"txndate"`
 	Txntime      string      `xml:"txntime"`
+	Txnamt       string      `xml:"txnamt"`
 	Acctbal      string      `xml:"acctbal"`
 	Avlnal       string      `xml:"avlnal"`
 	Frzamt       string      `xml:"frzamt"`
