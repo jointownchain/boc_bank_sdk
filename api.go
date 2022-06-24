@@ -173,11 +173,12 @@ func PaymentsQuery(bh *Modules.Head, trnRq *Modules.TrnB2e0007Rq) (*Modules.Paym
 		return nil, errors.Errorf("PaymentsQuery TRN error: code : %s, msg: %s",
 			rsp.TrnB2e0007Rs.Status.Rspcod, rsp.TrnB2e0007Rs.Status.Rspmsg)
 	}
-	status := (*rsp.TrnB2e0007Rs.B2e0007Rs)[0].Status
-	if !IsRspCodeOK(status.Rspcod) {
-		return nil, errors.Errorf("PaymentsQuery B2E error: code : %s, msg: %s",
-			status.Rspcod, status.Rspmsg)
-	}
+	// 报文交互正常不应该返回error，另外b2e0007支持多笔查询，所以必须要去掉以下逻辑
+	// status := (*rsp.TrnB2e0007Rs.B2e0007Rs)[0].Status
+	// if !IsRspCodeOK(status.Rspcod) {
+	// 	return nil, errors.Errorf("PaymentsQuery B2E error: code : %s, msg: %s",
+	// 		status.Rspcod, status.Rspmsg)
+	// }
 	return rsp, nil
 }
 
